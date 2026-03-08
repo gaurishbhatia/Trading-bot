@@ -1,0 +1,14 @@
+2026-03-08 22:08:35 | INFO     | cli | Started with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'price': None, 'stop_price': None}
+2026-03-08 22:08:35 | INFO     | client | Client initialized for testnet
+2026-03-08 22:08:35 | INFO     | orders | Executing MARKET BUY 0.002 BTCUSDT
+2026-03-08 22:08:35 | INFO     | client | MARKET BUY 0.002 BTCUSDT
+2026-03-08 22:08:35 | DEBUG    | client | Request: POST /fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1772987915727, 'signature': '079783f963cf7973ebf57b97ed4719cb2023c69c8885b7beadaf68f1d7a524a3'}
+2026-03-08 22:08:36 | DEBUG    | client | Response: {'orderId': 12703222477, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'DdGEa0pwl6hNikMfyH3g44', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772987915195}
+2026-03-08 22:08:36 | INFO     | orders | Done. orderId=12703222477
+2026-03-08 22:08:36 | INFO     | cli | Started with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 50000.0, 'stop_price': None}
+2026-03-08 22:08:36 | INFO     | client | Client initialized for testnet
+2026-03-08 22:08:36 | INFO     | orders | Executing LIMIT BUY 0.002 BTCUSDT
+2026-03-08 22:08:36 | INFO     | client | LIMIT BUY 0.002 BTCUSDT @ 50000.0
+2026-03-08 22:08:36 | DEBUG    | client | Request: POST /fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 50000.0, 'timeInForce': 'GTC', 'timestamp': 1772987916707, 'signature': '4d11ed70484aa80c2e8eed3d2a516a5837769c5dba8046374f973a4afd3a7fc7'}
+2026-03-08 22:08:37 | DEBUG    | client | Response: {'orderId': 12703222758, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'KGJjZ3D3vRXMkuymn6kNlG', 'price': '50000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772987916295}
+2026-03-08 22:08:37 | INFO     | orders | Done. orderId=12703222758
